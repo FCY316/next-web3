@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Keep a safe environment variable template
+!.env.example
+
+# 各环境的本机私密配置和测试构建产物
+config/environments/*.local.env
+/.next-test/

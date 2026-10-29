@@ -1,0 +1,12 @@
+{
+  "name": "開発の出発点",
+  "description": "Next.js、React、TypeScript、Tailwind CSS を使った軽量な開発テンプレートです。",
+  "eyebrow": "準備完了",
+  "heading": "次のプロジェクトを始めましょう",
+  "instructions": "messages/ で各言語の文言を編集し、app/[lang]/page.tsx でページを作成してください。開発規約とチェックコマンドは README を参照してください。",
+  "switchLanguage": "言語を切り替える",
+  "myTitle": "マイページ",
+  "myDescription": "多言語に対応したサンプルページです。新しいページの出発点として使えます。",
+  "myLink": "マイページへ",
+  "backHome": "ホームに戻る"
+}

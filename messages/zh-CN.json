@@ -1,0 +1,12 @@
+{
+  "name": "开发起点",
+  "description": "基于 Next.js、React、TypeScript 和 Tailwind CSS 的轻量开发模板。",
+  "eyebrow": "准备开始",
+  "heading": "开始你的下一个项目",
+  "instructions": "在 messages/ 中修改各语言文案，在 app/[lang]/page.tsx 中构建页面。开发约定和检查命令见项目 README。",
+  "switchLanguage": "切换语言",
+  "myTitle": "我的页面",
+  "myDescription": "这是一个支持国际化的示例页面，可作为新页面的起点。",
+  "myLink": "前往我的页面",
+  "backHome": "返回首页"
+}

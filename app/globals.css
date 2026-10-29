@@ -1,17 +1,20 @@
 @import "tailwindcss";
 
+/* 全站基础颜色：新增品牌色时可在这里集中维护。 */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* 将 CSS 变量映射到 Tailwind 工具类，例如 bg-background。 */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: ui-monospace, monospace;
 }
 
+/* 默认跟随系统主题；若加入手动主题切换，请同步调整此处策略。 */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

@@ -1,0 +1,12 @@
+{
+  "name": "Development Starter",
+  "description": "A lightweight starter built with Next.js, React, TypeScript, and Tailwind CSS.",
+  "eyebrow": "READY TO BUILD",
+  "heading": "Start your next project",
+  "instructions": "Edit translations in messages/ and build your page in app/[lang]/page.tsx. See the README for development conventions and checks.",
+  "switchLanguage": "Change language",
+  "myTitle": "My page",
+  "myDescription": "This localized example page is a starting point for your next page.",
+  "myLink": "Go to my page",
+  "backHome": "Back to home"
+}

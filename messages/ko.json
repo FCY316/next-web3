@@ -1,0 +1,12 @@
+{
+  "name": "개발 시작점",
+  "description": "Next.js, React, TypeScript, Tailwind CSS 기반의 가벼운 개발 템플릿입니다.",
+  "eyebrow": "시작할 준비 완료",
+  "heading": "다음 프로젝트를 시작하세요",
+  "instructions": "messages/에서 언어별 문구를 수정하고 app/[lang]/page.tsx에서 페이지를 만드세요. 개발 규칙과 검사 명령은 README를 참고하세요.",
+  "switchLanguage": "언어 변경",
+  "myTitle": "내 페이지",
+  "myDescription": "다국어를 지원하는 예제 페이지입니다. 새 페이지의 시작점으로 사용하세요.",
+  "myLink": "내 페이지로 이동",
+  "backHome": "홈으로 돌아가기"
+}

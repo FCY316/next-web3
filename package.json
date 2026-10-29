@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "node scripts/next-env.mjs development dev",
+    "build": "node scripts/next-env.mjs production build",
+    "start": "node scripts/next-env.mjs production start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "check": "npm run lint && npm run typecheck",
+    "build:test": "node scripts/next-env.mjs test build",
+    "start:test": "node scripts/next-env.mjs test start"
   },
   "dependencies": {
     "next": "16.4.3",
@@ -22,5 +26,8 @@
     "eslint-config-next": "16.4.3",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
   }
 }

@@ -5,10 +5,10 @@ import nextTs from "eslint-config-next/typescript";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  // Override default ignores of eslint-config-next.
+  // 构建产物与框架生成的类型文件无需参与源码检查。
   globalIgnores([
-    // Default ignores of eslint-config-next:
     ".next/**",
+    ".next-test/**",
     "out/**",
     "build/**",
     "next-env.d.ts",
