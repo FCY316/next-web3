@@ -1,0 +1,23 @@
+{
+  "title": "钱包",
+  "connect": "连接钱包",
+  "disconnect": "断开连接",
+  "pending": "等待钱包确认…",
+  "noWallet": "未发现支持 EIP-6963 的钱包扩展",
+  "address": "地址",
+  "network": "网络",
+  "unsupported": "当前网络不受支持，请切换到 InterstellarChain 或 BSC。",
+  "failed": "钱包操作失败，请检查钱包后重试。",
+  "rejected": "已取消钱包请求。",
+  "selectWallet": "选择钱包",
+  "selectDescription": "从已发现的钱包扩展中选择一个进行连接。",
+  "manageWallet": "账户详情",
+  "manageDescription": "查看当前链和地址，复制地址或断开连接。",
+  "rescan": "重新检测",
+  "copy": "复制地址",
+  "copied": "地址已复制",
+  "copyFailed": "复制失败，请手动复制地址。",
+  "close": "关闭",
+  "changeAddress": "切换地址类型",
+  "unknownNetwork": "未知网络"
+}

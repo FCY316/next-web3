@@ -127,3 +127,8 @@ import Link from "@/components/link";
 请使用以 `/` 开头的站内页面路径；已带语言前缀的路径、外链、锚点、查询串和 `/api` 保持原样。
 语言切换仍显式传入 `/ko/my` 等路径，并设置 `prefetch={false}`。
 此封装只处理 Link，不改变 Next.js 原生 router.push 或 redirect 的行为。
+
+## Web3 模块
+
+钱包与合约相关内容统一放在 `modules/web3/`，包括配置、ABI、Provider、组件、Hooks 和专属翻译。
+目前已配置支持的 EVM 链，钱包连接和合约交互功能尚未接入。

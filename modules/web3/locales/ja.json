@@ -1,0 +1,23 @@
+{
+  "title": "ウォレット",
+  "connect": "ウォレットを接続",
+  "disconnect": "接続解除",
+  "pending": "ウォレットの確認待ち…",
+  "noWallet": "EIP-6963 対応のウォレット拡張機能が見つかりません",
+  "address": "アドレス",
+  "network": "ネットワーク",
+  "unsupported": "未対応のネットワークです。InterstellarChain または BSC に切り替えてください。",
+  "failed": "操作に失敗しました。ウォレットを確認して再試行してください。",
+  "rejected": "リクエストをキャンセルしました。",
+  "selectWallet": "ウォレットを選択",
+  "selectDescription": "検出された拡張機能から接続するウォレットを選択してください。",
+  "manageWallet": "アカウント詳細",
+  "manageDescription": "現在のネットワークとアドレスの確認、コピー、接続解除ができます。",
+  "rescan": "再検出",
+  "copy": "アドレスをコピー",
+  "copied": "コピーしました",
+  "copyFailed": "コピーできませんでした。手動でコピーしてください。",
+  "close": "閉じる",
+  "changeAddress": "アドレス形式を切り替える",
+  "unknownNetwork": "不明なネットワーク"
+}

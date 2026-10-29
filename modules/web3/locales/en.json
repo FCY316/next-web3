@@ -1,0 +1,23 @@
+{
+  "title": "Wallet",
+  "connect": "Connect wallet",
+  "disconnect": "Disconnect",
+  "pending": "Waiting for wallet…",
+  "noWallet": "No EIP-6963 wallet extension found",
+  "address": "Address",
+  "network": "Network",
+  "unsupported": "Unsupported network. Switch to InterstellarChain or BSC.",
+  "failed": "Wallet operation failed. Check your wallet and retry.",
+  "rejected": "Wallet request cancelled.",
+  "selectWallet": "Select a wallet",
+  "selectDescription": "Choose a detected wallet extension to connect.",
+  "manageWallet": "Account details",
+  "manageDescription": "View the current network and address, copy your address, or disconnect.",
+  "rescan": "Detect again",
+  "copy": "Copy address",
+  "copied": "Address copied",
+  "copyFailed": "Copy failed. Please copy the address manually.",
+  "close": "Close",
+  "changeAddress": "Switch address format",
+  "unknownNetwork": "Unknown network"
+}

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations } from "@/lib/dictionaries";
 import { locales } from "@/lib/i18n";
+import { Web3Provider } from "@/modules/web3/providers/web3-provider";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import "../globals.css";
 
 // 预生成支持的语言；未知语言返回 404。
@@ -21,7 +24,13 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   const lang = await getLocale();
   return (
     <html lang={lang} className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Web3Provider locale={lang}>
+          <Header locale={lang} />
+          {children}
+          <Footer />
+        </Web3Provider>
+      </body>
     </html>
   );
 }

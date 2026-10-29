@@ -1,0 +1,23 @@
+{
+  "title": "지갑",
+  "connect": "지갑 연결",
+  "disconnect": "연결 해제",
+  "pending": "지갑 확인 대기 중…",
+  "noWallet": "EIP-6963 지갑 확장 프로그램을 찾을 수 없습니다",
+  "address": "주소",
+  "network": "네트워크",
+  "unsupported": "지원하지 않는 네트워크입니다. InterstellarChain 또는 BSC로 전환하세요.",
+  "failed": "지갑 작업에 실패했습니다. 지갑을 확인하고 다시 시도하세요.",
+  "rejected": "지갑 요청이 취소되었습니다.",
+  "selectWallet": "지갑 선택",
+  "selectDescription": "검색된 지갑 확장 프로그램을 선택해 연결하세요.",
+  "manageWallet": "계정 정보",
+  "manageDescription": "현재 네트워크와 주소를 확인하고 주소를 복사하거나 연결을 해제하세요.",
+  "rescan": "다시 검색",
+  "copy": "주소 복사",
+  "copied": "주소가 복사되었습니다",
+  "copyFailed": "복사하지 못했습니다. 주소를 직접 복사하세요.",
+  "close": "닫기",
+  "changeAddress": "주소 형식 전환",
+  "unknownNetwork": "알 수 없는 네트워크"
+}
