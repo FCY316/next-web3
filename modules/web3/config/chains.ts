@@ -19,8 +19,6 @@ export const chainParams = {
     chainName: "InterstellarChain",
     nativeCurrency: { name: "HUGE", symbol: "HUGE", decimals: 18 },
     rpcUrls: ["https://rpc.interstellarchain.org/"],
-    // 供后续新区块、Transfer、Approval 等实时事件订阅使用。
-    webSocketUrls: ["wss://rpc.interstellarchain.org"],
     blockExplorerUrls: ["https://scan.interstellarchain.org/"],
   },
   56: {
@@ -35,7 +33,9 @@ export const chainParams = {
 export type SupportedChainId = keyof typeof chainParams;
 
 // 钱包返回的网络可能不在支持列表中，校验后才能读取对应配置。
-export function isSupportedChainId(chainId: number): chainId is SupportedChainId {
+export function isSupportedChainId(
+  chainId: number,
+): chainId is SupportedChainId {
   return Object.prototype.hasOwnProperty.call(chainParams, chainId);
 }
 
